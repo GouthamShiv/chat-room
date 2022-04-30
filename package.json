@@ -1,0 +1,9 @@
+{
+  "name": "chat-room",
+  "version": "1.0.0",
+  "description": "NodeJS, Express & Socket.io based chat room application",
+  "main": "app.js",
+  "repository": "https://github.com/GouthamShiv/chat-room.git",
+  "author": "Goutham S <gouthamshine@gmail.com>",
+  "license": "MIT"
+}
