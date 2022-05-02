@@ -26,6 +26,11 @@ socket.on('message', (message) => {
     chatMessages.scrollTop = chatMessages.scrollHeight;
 });
 
+// Leave chatroom
+socket.on('leaveRoom', () => {
+    window.location.href = 'index.html';
+});
+
 // Message submit
 chatForm.addEventListener('submit', (e) => {
     e.preventDefault();
