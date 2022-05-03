@@ -2,6 +2,9 @@
 
 NodeJS, Express &amp; Socket.io based chat room application
 
+## Live demo
+https://chat.webstash.in
+
 ## To start in DEV mode
 
 `yarn run dev`
