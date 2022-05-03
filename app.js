@@ -74,7 +74,7 @@ io.on('connection', (socket) => {
             });
 
         // Welcome new user
-        socket.emit('message', formatMessage(name, 'Welcome to ChatApp'));
+        socket.emit('message', formatMessage(name, 'Welcome to ChatStash'));
     });
 
     // Listen for chat message
